@@ -95,6 +95,16 @@ p a:hover{ color:#868e36; text-decoration:none;}
 #services .serviceItem a{font:700 10px/14px Tahoma, sans-serif; color:#9d1263; text-decoration:none; text-transform:uppercase;}
 #services .serviceItem a:hover{text-decoration:underline;}
 
+#portfolio{width:647px; margin:0 0 24px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#portfolio h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:6px;}
+#portfolio p.portfolioIntro{font:10px/15px Tahoma, sans-serif; color:#666; margin-bottom:12px;}
+#portfolio .portfolioGrid{width:647px;}
+#portfolio .portfolioCard{width:191px; float:left; margin-right:25px; background:#fff; border:1px solid #efd3e3; padding:10px;}
+#portfolio .portfolioCard.last{margin-right:0;}
+#portfolio .portfolioCard img{display:block; width:116px; height:125px; margin:0 auto 10px auto;}
+#portfolio .portfolioCard h3{font:700 11px/14px Tahoma, sans-serif; color:#868e36; margin-bottom:6px; text-transform:uppercase;}
+#portfolio .portfolioCard p{font:10px/15px Tahoma, sans-serif; color:#616161;}
+
 /* footer */
 
 #footer{height:49px; clear:both; width:775px; background:#e8f09c; margin: 0 auto}
