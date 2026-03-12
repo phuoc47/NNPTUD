@@ -123,3 +123,70 @@ p a:hover{ color:#868e36; text-decoration:none;}
 #footer .footerCol p a{font:10px/16px Tahoma, sans-serif; color:#1f1f1f; text-decoration:none;}
 #footer .footerCol p a:hover{text-decoration:underline;}
 #footer p.copyright{padding-top:8px; border-top:1px solid #ced88a; font:10px/16px Tahoma, sans-serif; text-align:center; color:#1f1f1f;}
+
+@media screen and (max-width: 768px){
+  #container, #siteHeader, #topLine, #menuPan, #header, #content, #footer{width:100%;}
+  #header{height:auto; min-height:238px; background-size:cover; background-position:center top; padding-bottom:14px;}
+  #header img#slogan2{position:static; display:block; margin:16px 0 0 19px;}
+  #heroSection{position:static; width:auto; margin:16px 19px 0 19px; padding:10px; background:rgba(255, 255, 255, 0.85);}
+
+  #menuPan{height:auto; padding:10px 12px;}
+  #menuPan ul.menu{position:static; width:auto; display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px;}
+  #menuPan ul.menu li{float:none; margin-right:0;}
+  #menuPan ul.menu li.line{display:none;}
+
+  #leftPan, #rightPan{float:none; width:auto; margin:20px 19px 0 19px;}
+  #services, #portfolio, #contact, #footer .footerWrap{width:auto; margin-left:19px; margin-right:19px;}
+  #portfolio .portfolioGrid{width:auto;}
+
+  #services .serviceItem,
+  #portfolio .portfolioCard{
+    width:31%;
+    margin-right:3.5%;
+    box-sizing:border-box;
+  }
+  #services .serviceItem.last,
+  #portfolio .portfolioCard.last{margin-right:0;}
+
+  #contact .contactCard,
+  #footer .footerCol{
+    width:48%;
+    margin-right:4%;
+    box-sizing:border-box;
+  }
+  #contact .contactCard:last-child,
+  #footer .footerCol:last-child{margin-right:0;}
+}
+
+@media screen and (max-width: 480px){
+  #topLine{height:8px;}
+  #logoPan{height:auto; padding:12px 12px 8px 12px;}
+  #logoPan a.brand{position:static; display:block; width:auto; height:auto;}
+  #logoPan img#logo{position:static; display:block; margin:0 auto;}
+  #logoPan img#slogan{position:static; display:block; margin:10px auto 0 auto;}
+
+  #menuPan{padding:8px 10px;}
+  #menuPan ul.menu{display:block;}
+  #menuPan ul.menu li{display:block; margin:0 0 8px 0;}
+  #menuPan ul.menu li a{margin:0 auto;}
+
+  #header img#slogan2{margin:12px auto 0 auto;}
+  #heroSection{margin:12px 12px 0 12px; padding:10px;}
+  #heroSection .hero-title{font:22px/24px Georgia, "Times New Roman", serif;}
+  #heroSection p{font:11px/16px Tahoma, sans-serif;}
+
+  #leftPan, #rightPan, #services, #portfolio, #contact, #footer .footerWrap{margin-left:12px; margin-right:12px;}
+
+  .featItem,
+  .featItem#i03,
+  #services .serviceItem,
+  #portfolio .portfolioCard,
+  #contact .contactCard,
+  #footer .footerCol{
+    float:none;
+    width:auto;
+    margin:0 0 12px 0;
+  }
+  .featItem img{display:block; margin:0 auto 10px auto;}
+  #footer{padding-bottom:12px;}
+}
