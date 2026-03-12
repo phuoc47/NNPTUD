@@ -105,9 +105,21 @@ p a:hover{ color:#868e36; text-decoration:none;}
 #portfolio .portfolioCard h3{font:700 11px/14px Tahoma, sans-serif; color:#868e36; margin-bottom:6px; text-transform:uppercase;}
 #portfolio .portfolioCard p{font:10px/15px Tahoma, sans-serif; color:#616161;}
 
+#contact{width:647px; margin:0 0 24px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#contact h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:6px;}
+#contact p.contactIntro{font:10px/15px Tahoma, sans-serif; color:#666; margin-bottom:12px;}
+#contact .contactCard{width:302px; float:left; margin-right:21px; background:#fff8fc; border:1px solid #efd3e3; padding:10px;}
+#contact .contactCard:last-child{margin-right:0;}
+#contact .contactCard p{font:10px/16px Tahoma, sans-serif; color:#616161; margin-bottom:10px;}
+
 /* footer */
 
-#footer{height:49px; clear:both; width:775px; background:#e8f09c; margin: 0 auto}
-#footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
-#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
-#footer p a:hover{text-decoration:underline; color:#000}
+#footer{clear:both; width:685px; background:#e8f09c; margin:0 auto; padding:14px 0 10px 0;}
+#footer .footerWrap{width:647px; margin:0 0 10px 19px;}
+#footer .footerCol{width:302px; float:left; margin-right:21px;}
+#footer .footerCol:last-child{margin-right:0;}
+#footer .footerCol h3{font:700 12px/16px Tahoma, sans-serif; color:#5f6a21; margin-bottom:6px; text-transform:uppercase;}
+#footer .footerCol p{font:10px/16px Tahoma, sans-serif; color:#1f1f1f;}
+#footer .footerCol p a{font:10px/16px Tahoma, sans-serif; color:#1f1f1f; text-decoration:none;}
+#footer .footerCol p a:hover{text-decoration:underline;}
+#footer p.copyright{padding-top:8px; border-top:1px solid #ced88a; font:10px/16px Tahoma, sans-serif; text-align:center; color:#1f1f1f;}
