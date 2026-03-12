@@ -12,6 +12,7 @@ p a:hover{ color:#868e36; text-decoration:none;}
 .headline2{font:10px/14px Tahoma, Geneva, sans-serif; color:#9d1263; font-weight:bold}
 
 #container{width:685px; position:relative; margin:0 auto;}
+#siteHeader{width:685px;}
 
 /* top */
 
@@ -20,8 +21,9 @@ p a:hover{ color:#868e36; text-decoration:none;}
 /* logo*/
 
 #logoPan{width:685px; height:92px; position:relative}
+#logoPan a.brand{display:block; position:absolute; top:0; left:19px; height:92px; width:192px;}
 
-#logoPan img#logo{position:absolute; top:0; left:19px}
+#logoPan img#logo{position:absolute; top:0; left:0}
 #logoPan img#slogan{position:absolute; top:25px; left:376px}
 
 /* menu */
@@ -32,6 +34,8 @@ p a:hover{ color:#868e36; text-decoration:none;}
 #menuPan ul.menu li{height:16px; margin-right:28px; float:left}
 #menuPan ul.menu li a{height:16px; display:block; text-indent:-20000px; }
 #menuPan ul.menu li a:hover{height:16px;}
+#menuPan ul.menu li a:focus{outline:1px dotted #9d1263; outline-offset:2px;}
+#menuPan ul.menu li a:active{position:relative; top:1px;}
 
 #menuPan ul.menu li.btn_1 a{width:78px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
 #menuPan ul.menu li.btn_1 a:hover{width:78px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
