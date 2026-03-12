@@ -1,5 +1,22 @@
 ﻿# NNPTUD - Quy trinh Git cho 2 nguoi (A/B)
 
+## 0) Ban .NET de nop final (thay se check View)
+
+- Project da duoc nang cap thanh **ASP.NET Core MVC (.NET)**.
+- File thay co the check giao dien o final:
+  - `Views/Home/Index.cshtml`
+  - `Controllers/HomeController.cs`
+  - `wwwroot/css/style.css`
+  - `wwwroot/images/*`
+- Lenh chay project:
+
+```bash
+dotnet restore
+dotnet run
+```
+
+- URL mac dinh: `https://localhost:xxxx` hoac `http://localhost:xxxx` (vao trang Home/Index).
+
 ## 1) Yeu cau de bai
 
 - Dung template floral: `https://files.all-free-download.com/downloadfiles/graphic/graphic_7/floral_design_template_6890867.zip`
@@ -163,3 +180,4 @@ Vi du:
 - [ ] Co 2 conflict da xu ly thanh cong.
 - [ ] Khong ai commit truc tiep len `main`.
 - [ ] UI + CSS bam sat template floral.
+
