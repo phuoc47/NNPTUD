@@ -86,6 +86,15 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 .clear#end{height:20px}
 
+#services{width:647px; margin:0 0 22px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#services h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:10px;}
+#services .serviceItem{width:191px; float:left; margin-right:25px; background:#fff8fc; border:1px solid #efd3e3; padding:10px;}
+#services .serviceItem.last{margin-right:0;}
+#services .serviceItem h3{font:700 11px/14px Tahoma, sans-serif; color:#868e36; margin-bottom:7px; text-transform:uppercase;}
+#services .serviceItem p{font:10px/15px Tahoma, sans-serif; color:#616161; margin-bottom:8px;}
+#services .serviceItem a{font:700 10px/14px Tahoma, sans-serif; color:#9d1263; text-decoration:none; text-transform:uppercase;}
+#services .serviceItem a:hover{text-decoration:underline;}
+
 /* footer */
 
 #footer{height:49px; clear:both; width:775px; background:#e8f09c; margin: 0 auto}
