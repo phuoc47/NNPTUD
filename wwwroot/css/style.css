@@ -1,0 +1,192 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff; color:#616161; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#868e36; text-decoration:underline;}
+p a:hover{ color:#868e36; text-decoration:none;}
+
+.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#868e36; font-weight:bold}
+.headline2{font:10px/14px Tahoma, Geneva, sans-serif; color:#9d1263; font-weight:bold}
+
+#container{width:685px; position:relative; margin:0 auto;}
+#siteHeader{width:685px;}
+
+/* top */
+
+#topLine{width:685px; height:14px; background:#e9e9e9;}
+
+/* logo*/
+
+#logoPan{width:685px; height:92px; position:relative}
+#logoPan a.brand{display:block; position:absolute; top:0; left:19px; height:92px; width:192px;}
+
+#logoPan img#logo{position:absolute; top:0; left:0}
+#logoPan img#slogan{position:absolute; top:25px; left:376px}
+
+/* menu */
+
+#menuPan{width:685px; height:38px; background:#f8dae8; position:relative;}
+
+#menuPan ul.menu{position:absolute; top:12px; left:33px; width:640px}
+#menuPan ul.menu li{height:16px; margin-right:28px; float:left}
+#menuPan ul.menu li a{height:16px; display:block; text-indent:-20000px; }
+#menuPan ul.menu li a:hover{height:16px;}
+#menuPan ul.menu li a:focus{outline:1px dotted #9d1263; outline-offset:2px;}
+#menuPan ul.menu li a:active{position:relative; top:1px;}
+
+#menuPan ul.menu li.btn_1 a{width:78px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_1 a:hover{width:78px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_2 a{width:68px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_2 a:hover{width:68px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_3 a{width:75px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_3 a:hover{width:75px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_4 a{width:64px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_4 a:hover{width:64px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_5{margin-right:0}
+#menuPan ul.menu li.btn_5 a{width:71px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_5 a:hover{width:71px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.line{width:9px; background:url(../images/bullet_m.gif) 0 4px no-repeat}
+
+/* HEADER */
+
+#header{width:685px; height:238px; background: url(../images/b_header.jpg) 0 0 no-repeat; position:relative;}
+
+#header img#slogan2{position:absolute; top:76px; left:19px}
+#heroSection{position:absolute; top:38px; right:20px; width:322px;}
+#heroSection .hero-title{font:32px/34px Georgia, "Times New Roman", serif; color:#a11769; margin-bottom:10px; letter-spacing:0.4px;}
+#heroSection p{font:12px/19px Tahoma, sans-serif; color:#4f4f4f; margin-bottom:16px;}
+#heroSection a.heroBtn{display:inline-block; padding:9px 18px; font:700 11px/14px Tahoma, sans-serif; color:#fff; background:#8a0f56; text-decoration:none; border-radius:2px;}
+#heroSection a.heroBtn:hover{background:#6f0c45;}
+
+/* content */
+
+#content{width:685px; position:relative; background:#FFF}
+
+#leftPan{width:179px; float:left; margin:26px 39px 0 19px; display:inline}
+#rightPan{width:436px; float:left; margin:17px 0 0 0;}
+
+#welcome h2{height:40px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
+#welcome img{margin:0 0 16px 4px }
+#welcome p{margin-left:4px; margin-right:12px}
+#welcome p.headline{margin-bottom:15px}
+
+#featured h2{height:38px; position:relative; background:url(../images/h_prod.gif) 0 0 no-repeat; margin-bottom:6px}
+#featured p.headline{margin-bottom:5px}
+.featItem{width:116px; float:left; margin-right:44px}
+.featItem#i03{margin-right:0}
+.featItem img{margin-bottom:15px}
+
+.clear#end{height:20px}
+
+#services{width:647px; margin:0 0 22px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#services h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:10px;}
+#services .serviceItem{width:191px; float:left; margin-right:25px; background:#fff8fc; border:1px solid #efd3e3; padding:10px;}
+#services .serviceItem.last{margin-right:0;}
+#services .serviceItem h3{font:700 11px/14px Tahoma, sans-serif; color:#868e36; margin-bottom:7px; text-transform:uppercase;}
+#services .serviceItem p{font:10px/15px Tahoma, sans-serif; color:#616161; margin-bottom:8px;}
+#services .serviceItem a{font:700 10px/14px Tahoma, sans-serif; color:#9d1263; text-decoration:none; text-transform:uppercase;}
+#services .serviceItem a:hover{text-decoration:underline;}
+
+#portfolio{width:647px; margin:0 0 24px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#portfolio h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:6px;}
+#portfolio p.portfolioIntro{font:10px/15px Tahoma, sans-serif; color:#666; margin-bottom:12px;}
+#portfolio .portfolioGrid{width:647px;}
+#portfolio .portfolioCard{width:191px; float:left; margin-right:25px; background:#fff; border:1px solid #efd3e3; padding:10px;}
+#portfolio .portfolioCard.last{margin-right:0;}
+#portfolio .portfolioCard img{display:block; width:116px; height:125px; margin:0 auto 10px auto;}
+#portfolio .portfolioCard h3{font:700 11px/14px Tahoma, sans-serif; color:#868e36; margin-bottom:6px; text-transform:uppercase;}
+#portfolio .portfolioCard p{font:10px/15px Tahoma, sans-serif; color:#616161;}
+
+#contact{width:647px; margin:0 0 24px 19px; padding-top:10px; border-top:1px solid #edd4e2;}
+#contact h2{font:18px/22px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:6px;}
+#contact p.contactIntro{font:10px/15px Tahoma, sans-serif; color:#666; margin-bottom:12px;}
+#contact .contactCard{width:302px; float:left; margin-right:21px; background:#fff8fc; border:1px solid #efd3e3; padding:10px;}
+#contact .contactCard:last-child{margin-right:0;}
+#contact .contactCard p{font:10px/16px Tahoma, sans-serif; color:#616161; margin-bottom:10px;}
+
+/* footer */
+
+#footer{clear:both; width:685px; background:#e8f09c; margin:0 auto; padding:14px 0 10px 0;}
+#footer .footerWrap{width:647px; margin:0 0 10px 19px;}
+#footer .footerCol{width:302px; float:left; margin-right:21px;}
+#footer .footerCol:last-child{margin-right:0;}
+#footer .footerCol h3{font:700 12px/16px Tahoma, sans-serif; color:#5f6a21; margin-bottom:6px; text-transform:uppercase;}
+#footer .footerCol p{font:10px/16px Tahoma, sans-serif; color:#1f1f1f;}
+#footer .footerCol p a{font:10px/16px Tahoma, sans-serif; color:#1f1f1f; text-decoration:none;}
+#footer .footerCol p a:hover{text-decoration:underline;}
+#footer p.copyright{padding-top:8px; border-top:1px solid #ced88a; font:10px/16px Tahoma, sans-serif; text-align:center; color:#1f1f1f;}
+
+@media screen and (max-width: 768px){
+  #container, #siteHeader, #topLine, #menuPan, #header, #content, #footer{width:100%;}
+  #header{height:auto; min-height:238px; background-size:cover; background-position:center top; padding-bottom:14px;}
+  #header img#slogan2{position:static; display:block; margin:16px 0 0 19px;}
+  #heroSection{position:static; width:auto; margin:16px 19px 0 19px; padding:10px; background:rgba(255, 255, 255, 0.85);}
+
+  #menuPan{height:auto; padding:10px 12px;}
+  #menuPan ul.menu{position:static; width:auto; display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px;}
+  #menuPan ul.menu li{float:none; margin-right:0;}
+  #menuPan ul.menu li.line{display:none;}
+
+  #leftPan, #rightPan{float:none; width:auto; margin:20px 19px 0 19px;}
+  #services, #portfolio, #contact, #footer .footerWrap{width:auto; margin-left:19px; margin-right:19px;}
+  #portfolio .portfolioGrid{width:auto;}
+
+  #services .serviceItem,
+  #portfolio .portfolioCard{
+    width:31%;
+    margin-right:3.5%;
+    box-sizing:border-box;
+  }
+  #services .serviceItem.last,
+  #portfolio .portfolioCard.last{margin-right:0;}
+
+  #contact .contactCard,
+  #footer .footerCol{
+    width:48%;
+    margin-right:4%;
+    box-sizing:border-box;
+  }
+  #contact .contactCard:last-child,
+  #footer .footerCol:last-child{margin-right:0;}
+}
+
+@media screen and (max-width: 480px){
+  #topLine{height:8px;}
+  #logoPan{height:auto; padding:12px 12px 8px 12px;}
+  #logoPan a.brand{position:static; display:block; width:auto; height:auto;}
+  #logoPan img#logo{position:static; display:block; margin:0 auto;}
+  #logoPan img#slogan{position:static; display:block; margin:10px auto 0 auto;}
+
+  #menuPan{padding:8px 10px;}
+  #menuPan ul.menu{display:block;}
+  #menuPan ul.menu li{display:block; margin:0 0 8px 0;}
+  #menuPan ul.menu li a{margin:0 auto;}
+
+  #header img#slogan2{margin:12px auto 0 auto;}
+  #heroSection{margin:12px 12px 0 12px; padding:10px;}
+  #heroSection .hero-title{font:22px/24px Georgia, "Times New Roman", serif;}
+  #heroSection p{font:11px/16px Tahoma, sans-serif;}
+
+  #leftPan, #rightPan, #services, #portfolio, #contact, #footer .footerWrap{margin-left:12px; margin-right:12px;}
+
+  .featItem,
+  .featItem#i03,
+  #services .serviceItem,
+  #portfolio .portfolioCard,
+  #contact .contactCard,
+  #footer .footerCol{
+    float:none;
+    width:auto;
+    margin:0 0 12px 0;
+  }
+  .featItem img{display:block; margin:0 auto 10px auto;}
+  #footer{padding-bottom:12px;}
+}
