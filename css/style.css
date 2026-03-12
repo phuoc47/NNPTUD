@@ -61,7 +61,7 @@ p a:hover{ color:#868e36; text-decoration:none;}
 
 #header img#slogan2{position:absolute; top:76px; left:19px}
 #heroSection{position:absolute; top:45px; right:24px; width:300px;}
-#heroSection h1{font:28px/30px Georgia, "Times New Roman", serif; color:#9d1263; margin-bottom:8px;}
+#heroSection .hero-title{font:30px/32px Georgia, "Times New Roman", serif; color:#8e0f59; margin-bottom:8px;}
 #heroSection p{font:12px/18px Tahoma, sans-serif; color:#5e5e5e; margin-bottom:14px;}
 #heroSection a.heroBtn{display:inline-block; padding:8px 16px; font:700 11px/14px Tahoma, sans-serif; color:#fff; background:#9d1263; text-decoration:none;}
 #heroSection a.heroBtn:hover{background:#7f0f50;}
